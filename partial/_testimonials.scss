@@ -1,0 +1,43 @@
+.swiper {
+  width: $container-lg;
+
+  .head__testimonials {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .swiper-wrapper {
+    margin-top: 1rem;
+    article {
+      @include gradientBackground;
+      padding: 1.5rem 2rem;
+      border-radius: 1rem;
+      cursor: default;
+      font-size: 0.9rem;
+
+      .patient {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 0.4rem;
+        .avatar {
+          width: 2.5rem;
+          aspect-ratio: 1/1;
+          border-radius: 50%;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .swiper {
+    .swiper-wrapper {
+      article {
+        padding: 1.5rem;
+      }
+    }
+  }
+}

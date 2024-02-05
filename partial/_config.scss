@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+$primary-color: #480ca8 !default;
+$primary-color-variant: #4cc9f0 !default;
+$secondary-color: #f72585 !default;
+$white-color: #ffff !default;
+$black-color: #0c031b !default;
+$light-color: rgba($white-color, 0.7) !default;
+$dark-color: rgba($black-color, 0.7) !default;
+$success-color: #54eb72 !default;
+$container-lg: 82% !default;
+$container-md: 90% !default;
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
