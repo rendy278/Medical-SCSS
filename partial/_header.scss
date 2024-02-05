@@ -7,6 +7,7 @@ header {
 
   .container {
     margin-top: 3rem;
+    overflow-x: hidden;
     display: grid;
     grid-template-columns: 46% 46%;
     gap: 8%;
