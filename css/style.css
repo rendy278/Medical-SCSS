@@ -16,6 +16,7 @@ html {
 body {
   font-family: "Monserrat", sans-serif;
   line-height: 1.5;
+  overflow-x: hidden;
   color: rgba(12, 3, 27, 0.7);
   background: rgba(76, 201, 240, 0.1);
   -webkit-user-select: none;
